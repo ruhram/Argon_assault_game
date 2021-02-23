@@ -549,32 +549,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1263782152 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1184585303371964449, guid: 403799d02c48b7f48934c19bc9dff69e,
-    type: 3}
-  m_PrefabInstance: {fileID: 1289925435}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1263782153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1188324070877995351, guid: 403799d02c48b7f48934c19bc9dff69e,
     type: 3}
   m_PrefabInstance: {fileID: 1289925435}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1263782154
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1263782152}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec0f2ba6b95cbcf4ea0e4d95e60df986, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xSpeed: 20
-  xRange: 5
 --- !u!1001 &1289925435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -582,10 +562,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 534669905}
     m_Modifications:
+    - target: {fileID: 1263782154, guid: 403799d02c48b7f48934c19bc9dff69e, type: 3}
+      propertyPath: yRange
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 1184585303371964449, guid: 403799d02c48b7f48934c19bc9dff69e,
         type: 3}
       propertyPath: m_Name
-      value: Example_1
+      value: Player_Ship
       objectReference: {fileID: 0}
     - target: {fileID: 1188324070877995351, guid: 403799d02c48b7f48934c19bc9dff69e,
         type: 3}
