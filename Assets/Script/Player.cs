@@ -20,7 +20,14 @@ public class Player : MonoBehaviour
     {
         
     }
-
+    void OnCollisionEnter(Collision col)
+    {
+        print("Player Collided Something");
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        print("Player Trigerred Something");
+    }
     // Update is called once per frame
     void Update()
     {
